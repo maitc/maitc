@@ -1,0 +1,36 @@
+.container{
+	width: 80%;
+}
+.second-section, .third-section, .fourth-section{
+	background-color: #FFF0E4;
+}
+footer{
+	background-color: #FADDC3;
+}
+/*FIRST SECTION*/
+.navbar-default{
+	margin-bottom: 0px;
+	background-color: transparent;
+	border: none;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #2F2B2B;
+	font-weight: 700;
+	margin: 5px 0 0 0;
+}
+.first-section{
+	background-image: url('../img/header.jpg');
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.navbar-brand{
+	font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 900;
+    font-size: 45px;
+    color: #2F2B2B !important;
+    margin: 5px 0 0 5px;
+    border: 1px solid #2F2B2B;
+}
+ /*SECOND SECTION*/
