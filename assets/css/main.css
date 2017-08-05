@@ -5957,6 +5957,10 @@ footer {
   footer .footer-cuatro h6 span {
     color: #B2835A;
     font-weight: 700; }
+  footer .footer-cuatro h6 a {
+    color: #B2835A;
+    font-weight: 700;
+    text-decoration: none; }
 
 .footer-uno-dos h5 {
   padding: 15px;
