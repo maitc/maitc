@@ -6,13 +6,15 @@
 	<title>Portafolio</title>
 	<script src="https://use.fontawesome.com/cbf59482a4.js"></script>
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Elsie+Swash+Caps:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Elsie+Swash+Caps:900|Montserrat:700|Raleway:700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<link rel="stylesheet" href="assets/css/uikit.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-uk-scrollspy="{cls:'uk-animation-fade', target:'.my-class', delay:300, repeat: true}">
 	<!-- FIRST SECTION -->
 	<section class="first-section">
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default navbar-fixed-top" rol="navigation">
   			<div class="container">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
@@ -28,112 +30,232 @@
 		    	<!-- Collect the nav links, forms, and other content for toggling -->
 		    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			        <ul class="nav navbar-nav navbar-right">
-				        <li><a href="#">Sobre mi</a></li>
-				        <li><a href="#">Herramientas</a></li>
-				        <li><a href="#">Portafolio</a></li>
-				        <li><a href="#">Contacto</a></li>
+				        <li><a href="#section-dos">Sobre mi</a></li>
+				        <li><a href="#section-tres">Herramientas</a></li>
+				        <li><a href="#section-cuatro">Portafolio</a></li>
+				        <li><a href="#section-footer">Contacto</a></li>
 			      	</ul>
     			</div><!-- /.navbar-collapse -->
   			</div><!-- /.container-fluid -->
 		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 hidden-xs header-uno">
+					<h2 class="animated rollIn"><span>M</span>aibeet Torres</h2>
+					<p>Front-End Jr.</p>
+				</div>
+				<!-- MOBILE -->
+				<div class="col-xs-12 visible-xs header-dos">
+					<h2 class="animated rollIn"><span>M</span>aibeet Torres</h2>
+					<p>Front-End Jr.</p>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- SECOND SECTION -->
-	<section class="second-section">
+	<section class="second-section section my-class" id="section-dos">
 		<div class="container">
 			<div class="row">	
-				<div class="col-md-12 col-xs-12">
-					<h2>Sobre mi</h2>
+				<div class="col-md-12 col-xs-12 second-uno">
+					<h2>SOBRE MI</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-xs-12">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nisi, magnam ipsa facere molestiae qui similique ea adipisci tempore natus. Quae eveniet vero, et autem voluptatem cupiditate. Ratione, magni, totam.</p>
+				<div class="col-md-6 hidden-xs second-dos">
+					<p>¡Hola! Mi nombre es Maibeet Torres, me caracterizo por ser pro-activa, eficiente, practica y esperando nuevos desafíos. Me apasiona programar y sentir que contribuyo a esta nueva era tecnológica de la mano de mas mujeres.</p>
 				</div>
-				<div class="col-md-6 col-xs-12">
-					<!-- img -->
+				<div class="col-md-6 hidden-xs second-tres">
+					<img src="assets/img/profile.jpg" alt="foto-de-perfil">
+				</div>
+				<!-- MOBILE -->
+				<div class="col-xs-12 visible-xs second-tres">
+					<img src="assets/img/profile.jpg" alt="foto-de-perfil">
+				</div>
+				<div class="col-xs-12 visible-xs second-dos">
+					<p>¡Hola! Mi nombre es Maibeet Torres, me caracterizo por ser pro-activa, eficiente, practica y esperando nuevos desafíos. Me apasiona programar y sentir que contribuyo a esta nueva era tecnológica de la mano de mas mujeres.</p>
 				</div>
 			</div>
+			<hr>
 		</div>
 	</section>
 	<!-- THIRD SECTION -->
-	<section class="third-section">
+	<section class="third-section section my-class" id="section-tres">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-xs-4">
-					<i class="devicon-bootstrap-plain"></i>
+				<div class="col-md-12 hidden-xs third-uno">
+					<h2>HERRAMIENTAS</h2>
 				</div>
-				<div class="col-md-4 col-xs-4">
-					<i class="devicon-css3-plain"></i>
-				</div>
-				<div class="col-md-4 col-xs-4">
-					<i class="devicon-github-plain"></i>
+				<!-- MOBILE -->
+				<div class="col-xs-12 visible-xs third-dos">
+					<h2>HERRAMIENTAS</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-xs-4">
-					<i class="devicon-git-plain"></i>
-				</div>
-				<div class="col-md-4 col-xs-4">
-					<i class="devicon-gulp-plain"></i>
-				</div>
-				<div class="col-md-4 col-xs-4">
+				<div class="col-md-4 hidden-xs">
 					<i class="devicon-html5-plain"></i>
+					<span>HTML 5</span>
+				</div>
+				<div class="col-md-4 hidden-xs">
+					<i class="devicon-css3-plain"></i>
+					<span>CSS 3</span>
+				</div>
+				<div class="col-md-4 hidden-xs">
+					<i class="devicon-javascript-plain"></i>
+					<span>JAVASCRIPT</span>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-xs-4">
-					<i class="devicon-javascript-plain"></i>
-				</div>
-				<div class="col-md-4 col-xs-4">
+				<div class="col-md-4 hidden-xs">
 					<i class="devicon-jquery-plain"></i>
+					<span>JQUERY</span>
 				</div>
-				<div class="col-md-4 col-xs-4">
+				<div class="col-md-4 hidden-xs">
+					<i class="devicon-bootstrap-plain"></i>
+					<span>BOOTSTRAP</span>
+				</div>
+				<div class="col-md-4 hidden-xs">
 					<i class="devicon-sass-original"></i>
+					<span>SASS</span>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-4 hidden-xs fourth-cinco">
+					<i class="devicon-github-plain"></i>
+					<span>GITHUB</span>
+				</div>
+				<div class="col-md-4 hidden-xs fourth-cinco">
+					<i class="devicon-git-plain"></i>
+					<span>GIT</span>
+				</div>
+				<div class="col-md-4 hidden-xs fourth-cinco">
+					<i class="devicon-gulp-plain"></i>
+					<span>GULP</span>
+				</div>
+			</div>
+			<!-- MOBILE -->
+			<div class="row">
+				<div class="col-xs-6 visible-xs herramientas-mobile">
+					<i class="devicon-html5-plain"></i>
+					<span>HTML 5</span>
+				</div>
+				<div class="col-xs-6 visible-xs herramientas-mobile">
+					<i class="devicon-css3-plain"></i>
+					<span>CSS 3</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 visible-xs herramientas-mobile">
+					<i class="devicon-jquery-plain"></i>
+					<span>JQUERY</span>
+				</div>
+				<div class="col-xs-6 visible-xs herramientas-mobile">
+					<i class="devicon-bootstrap-plain"></i>
+					<span>BOOTSTRAP</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 visible-xs herramientas-mobile">
+					<i class="devicon-javascript-plain"></i>
+					<span>JAVASCRIPT</span>
+				</div>
+				<div class="col-xs-6 visible-xs herramientas-mobile">
+					<i class="devicon-sass-original"></i>
+					<span>SASS</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 visible-xs herramientas-mobile fourth-cinco">
+					<i class="devicon-github-plain"></i>
+					<span>GITHUB</span>
+				</div>
+				<div class="col-xs-6 visible-xs herramientas-mobile fourth-cinco">
+					<i class="devicon-gulp-plain"></i>
+					<span>GULP</span>
+				</div>
+			</div>
+			<hr>
 		</div>
 	</section>
-	<!-- FOURTH SECTION <--></-->
-	<section class="fourth-section">
+	<!-- FOURTH SECTION <-->
+	<section class="fourth-section section my-class" id="section-cuatro">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-xs-12">
-					<p>1</p>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<p>1</p>
-				</div>
-				<div class="col-md-4 col-xs-12">
-					<p>1</p>
+				<div class="col-md-12 col-xs-12 fourth-uno">
+					<h2>PORTAFOLIO</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12 col-xs-12">
-					<p>1</p>
+				<div class="col-md-4 col-xs-12 img-overlay">
+					<img src="assets/img/trans-lab.jpg" alt="ejercicio-de-ver-saldo-bip" class="img-portafolio img-uno">
+					<p class="text-overlay">
+						<a href="https://maitc.github.io/trans-lab/" target="_blank">DEMO</a>
+						 | 
+ 						<a href="https://github.com/maitc/trans-lab" target="_blank">CODIGO</a>
+					</p>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="row">
+						<div class="col-md-12 img-overlay">
+							<img src="assets/img/culinary.jpg" alt="ejercicio-maquetado-sobre-cocina" class="img-portafolio img-dos">
+							<p class="text-overlay">
+								<a href="https://maitc.github.io/culinary-lab/" target="_blank">DEMO</a> | 
+								<a href="https://github.com/maitc/culinary-lab" target="_blank">CODIGO</a>
+							</p>
+						</div>
+						<div class="col-md-12 img-overlay">
+							<img src="assets/img/Labcar.jpg" alt="ejercicio-maquetado-y-de-cobro-de-ruta" class="img-portafolio img-cuatro">
+							<p class="text-overlay">
+								<a href="https://maitc.github.io/labcar/" target="_blank">DEMO</a>
+								 | 
+								<a href="https://github.com/maitc/labcar" target="_blank">CODIGO</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-12 img-overlay">
+					<img src="assets/img/lyftapp.jpg" alt="ejercicio-maquetado-con-validacion-y-geolocation" class="img-portafolio img-tres">
+					<p class="text-overlay">
+						<a href="https://maitc.github.io/lyft-app/" target="_blank">DEMO</a>
+						 | 
+						<a href="https://github.com/maitc/lyft-app" target="_blank">CODIGO</a>
+					</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- FOOTER -->
-	<footer>
-		<div class="container">
+	<footer class="my-class">
+		<div class="container section dipper" id="section-footer">
 			<div class="row">
-				<div class="col-md-12 col-xs-12">
-					<h2>Contactame</h2>
-					<p>correo</p>
+				<div class="col-md-12 hidden-xs footer-uno">
+					<h2>CONTACTAME</h2>
+					<h4>maibeet.torres@gmail.com</h4>
+				</div>
+				<!-- MOBILE -->
+				<div class="col-xs-12 visible-xs footer-uno-dos">
+					<h2>CONTACTAME</h2>
+					<h5>maibeet.torres@gmail.com</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-xs-12">
-					<p>link</p>
+				<div class="col-md-6 hidden-xs footer-dos footer-margin">
+					<a href="https://www.linkedin.com/in/maitc/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
 				</div>
-				<div class="col-md-6 col-xs-12">
-					<p>github</p>
+				<div class="col-md-6 hidden-xs footer-tres footer-margin">
+					<a href="https://github.com/maitc" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+				</div>
+				<!-- MOBILE -->
+				<div class="col-xs-6 visible-xs footer-dos footer-margin">
+					<a href="https://www.linkedin.com/in/maitc/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-xs-6 visible-xs footer-tres footer-margin">
+					<a href="https://github.com/maitc" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
 				</div>
 			</div>
+			<hr>	
 			<div class="row">
-				<div class="col-md-12">
-					<h3>hecho por mi</h3>
+				<div class="col-md-12 footer-cuatro">
+					<h6>Desarrollado por <span>Maibeet Torres</span> | Laboratoria 2017</h6>
 				</div>
 			</div>
 		</div>
@@ -143,6 +265,8 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="assets/js/uikit.js"></script>
+   <script type="text/javascript" src="assets/js/uikit.min.js"></script>
    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
