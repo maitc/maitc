@@ -197,8 +197,11 @@ footer{
 	.footer-cuatro{
 		h6{
 			span{
-				color: #B2835A;
-				font-weight: 700;
+				@include footerTipo();
+			}
+			a{
+				@include footerTipo();
+				text-decoration: none;
 			}
 		}
 	}
