@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="assets/css/uikit.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-uk-scrollspy="{cls:'uk-animation-fade', target:'.my-class', delay:300, repeat: true}">
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-uk-scrollspy="{cls:'uk-animation-slide-bottom uk-animation-fade', target:'.my-class'}">
 	<!-- FIRST SECTION -->
 	<section class="first-section">
 		<nav class="navbar navbar-default navbar-fixed-top" rol="navigation">
@@ -24,7 +24,7 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
       				</button>
-      				<a class="navbar-brand" href="#">M</a>
+      				<a class="navbar-brand" href="#" id="section-uno">M</a>
     			</div>
 
 		    	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,141 +53,140 @@
 		</div>
 	</section>
 	<!-- SECOND SECTION -->
-	<section class="second-section section my-class" id="section-dos">
+	<section class="second-section section" id="section-dos">
 		<div class="container">
 			<div class="row">	
-				<div class="col-md-12 col-xs-12 second-uno">
-					<h2>SOBRE MI</h2>
+				<div class="col-md-12 col-xs-12 second-uno my-class">
+					<h2 class="my-class">SOBRE MI</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 hidden-xs second-dos">
-					<p>¡Hola! Mi nombre es Maibeet Torres, me caracterizo por ser pro-activa, eficiente, practica y esperando nuevos desafíos. Me apasiona programar y sentir que contribuyo a esta nueva era tecnológica de la mano de mas mujeres.</p>
+					<p class="my-class">¡Hola! Mi nombre es Maibeet Torres, me caracterizo por ser pro-activa, eficiente, practica y esperando nuevos desafíos. Me apasiona programar y sentir que contribuyo a esta nueva era tecnológica de la mano de mas mujeres.</p>
 				</div>
-				<!-- DEBO CAMBIAR FOTO DE PERFIL :(  -->
 				<div class="col-md-6 hidden-xs second-tres">
-					<img src="assets/img/profile.jpg" alt="foto-de-perfil">
+					<img src="assets/img/profile.jpg" alt="foto-de-perfil" class="my-class">
 				</div>
 				<!-- MOBILE -->
-				<div class="col-xs-12 visible-xs second-tres">
-					<img src="assets/img/profile.jpg" alt="foto-de-perfil">
+				<div class="col-xs-12 visible-xs second-cuatro">
+					<img src="assets/img/profile.jpg" alt="foto-de-perfil" class="my-class">
 				</div>
 				<div class="col-xs-12 visible-xs second-dos">
-					<p>¡Hola! Mi nombre es Maibeet Torres, me caracterizo por ser pro-activa, eficiente, practica y esperando nuevos desafíos. Me apasiona programar y sentir que contribuyo a esta nueva era tecnológica de la mano de mas mujeres.</p>
+					<p class="my-class">¡Hola! Mi nombre es Maibeet Torres, me caracterizo por ser pro-activa, eficiente, practica y esperando nuevos desafíos. Me apasiona programar y sentir que contribuyo a esta nueva era tecnológica de la mano de mas mujeres.</p>
 				</div>
 			</div>
 			<hr>
 		</div>
 	</section>
 	<!-- THIRD SECTION -->
-	<section class="third-section section my-class" id="section-tres">
+	<section class="third-section section" id="section-tres">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 hidden-xs third-uno">
-					<h2>HERRAMIENTAS</h2>
+					<h2 class="my-class">HERRAMIENTAS</h2>
 				</div>
 				<!-- MOBILE -->
 				<div class="col-xs-12 visible-xs third-dos">
-					<h2>HERRAMIENTAS</h2>
+					<h2 class="my-class">HERRAMIENTAS</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 hidden-xs">
-					<i class="devicon-html5-plain color-herramientas"></i>
-					<span>HTML 5</span>
+					<i class="devicon-html5-plain color-herramientas my-class"></i>
+					<span class="my-class">HTML 5</span>
 				</div>
 				<div class="col-md-4 hidden-xs">
-					<i class="devicon-css3-plain color-herramientas"></i>
-					<span>CSS 3</span>
+					<i class="devicon-css3-plain color-herramientas my-class"></i>
+					<span class="my-class">CSS 3</span>
 				</div>
 				<div class="col-md-4 hidden-xs">
-					<i class="devicon-javascript-plain color-herramientas"></i>
-					<span>JAVASCRIPT</span>
+					<i class="devicon-javascript-plain color-herramientas my-class"></i>
+					<span class="my-class">JAVASCRIPT</span>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 hidden-xs">
-					<i class="devicon-jquery-plain color-herramientas"></i>
-					<span>JQUERY</span>
+					<i class="devicon-jquery-plain color-herramientas my-class"></i>
+					<span class="my-class">JQUERY</span>
 				</div>
 				<div class="col-md-4 hidden-xs">
-					<i class="devicon-bootstrap-plain color-herramientas"></i>
-					<span>BOOTSTRAP</span>
+					<i class="devicon-bootstrap-plain color-herramientas my-class"></i>
+					<span class="my-class">BOOTSTRAP</span>
 				</div>
 				<div class="col-md-4 hidden-xs">
-					<i class="devicon-sass-original color-herramientas"></i>
-					<span>SASS</span>
+					<i class="devicon-sass-original color-herramientas my-class"></i>
+					<span class="my-class">SASS</span>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 hidden-xs fourth-cinco">
-					<i class="devicon-github-plain color-herramientas"></i>
-					<span>GITHUB</span>
+					<i class="devicon-github-plain color-herramientas my-class"></i>
+					<span class="my-class">GITHUB</span>
 				</div>
 				<div class="col-md-4 hidden-xs fourth-cinco">
-					<i class="devicon-git-plain color-herramientas"></i>
-					<span>GIT</span>
+					<i class="devicon-git-plain color-herramientas my-class"></i>
+					<span class="my-class">GIT</span>
 				</div>
 				<div class="col-md-4 hidden-xs fourth-cinco">
-					<i class="devicon-gulp-plain color-herramientas"></i>
-					<span>GULP</span>
+					<i class="devicon-gulp-plain color-herramientas my-class"></i>
+					<span class="my-class">GULP</span>
 				</div>
 			</div>
 			<!-- MOBILE -->
 			<div class="row">
 				<div class="col-xs-6 visible-xs herramientas-mobile">
-					<i class="devicon-html5-plain color-herramientas"></i>
-					<span>HTML 5</span>
+					<i class="devicon-html5-plain color-herramientas my-class"></i>
+					<span class="my-class">HTML 5</span>
 				</div>
 				<div class="col-xs-6 visible-xs herramientas-mobile">
-					<i class="devicon-css3-plain color-herramientas"></i>
-					<span>CSS 3</span>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-6 visible-xs herramientas-mobile">
-					<i class="devicon-jquery-plain color-herramientas"></i>
-					<span>JQUERY</span>
-				</div>
-				<div class="col-xs-6 visible-xs herramientas-mobile">
-					<i class="devicon-bootstrap-plain color-herramientas"></i>
-					<span>BOOTSTRAP</span>
+					<i class="devicon-css3-plain color-herramientas my-class"></i>
+					<span class="my-class">CSS 3</span>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6 visible-xs herramientas-mobile">
-					<i class="devicon-javascript-plain color-herramientas"></i>
-					<span>JAVASCRIPT</span>
+					<i class="devicon-jquery-plain color-herramientas my-class"></i>
+					<span class="my-class">JQUERY</span>
 				</div>
 				<div class="col-xs-6 visible-xs herramientas-mobile">
-					<i class="devicon-sass-original color-herramientas"></i>
-					<span>SASS</span>
+					<i class="devicon-bootstrap-plain color-herramientas my-class"></i>
+					<span class="my-class">BOOTSTRAP</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 visible-xs herramientas-mobile">
+					<i class="devicon-javascript-plain color-herramientas my-class"></i>
+					<span class="my-class">JAVASCRIPT</span>
+				</div>
+				<div class="col-xs-6 visible-xs herramientas-mobile">
+					<i class="devicon-sass-original color-herramientas my-class"></i>
+					<span class="my-class">SASS</span>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6 visible-xs herramientas-mobile fourth-cinco">
-					<i class="devicon-github-plain color-herramientas"></i>
-					<span>GITHUB</span>
+					<i class="devicon-github-plain color-herramientas my-class"></i>
+					<span class="my-class">GITHUB</span>
 				</div>
 				<div class="col-xs-6 visible-xs herramientas-mobile fourth-cinco">
-					<i class="devicon-gulp-plain color-herramientas"></i>
-					<span>GULP</span>
+					<i class="devicon-gulp-plain color-herramientas my-class"></i>
+					<span class="my-class">GULP</span>
 				</div>
 			</div>
 			<hr>
 		</div>
 	</section>
 	<!-- FOURTH SECTION <-->
-	<section class="fourth-section section my-class" id="section-cuatro">
+	<section class="fourth-section section" id="section-cuatro">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-xs-12 fourth-uno">
-					<h2>PORTAFOLIO</h2>
+					<h2 class="my-class">PORTAFOLIO</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-xs-12 img-overlay">
-					<img src="assets/img/trans-lab.jpg" alt="ejercicio-de-ver-saldo-bip" class="img-portafolio img-uno">
+					<img src="assets/img/trans-lab.jpg" alt="ejercicio-de-ver-saldo-bip" class="img-portafolio img-uno my-class">
 					<p class="text-overlay">
 						<a href="https://maitc.github.io/trans-lab/" target="_blank">DEMO</a>
 						 | 
@@ -197,14 +196,14 @@
 				<div class="col-md-4 col-xs-12">
 					<div class="row">
 						<div class="col-md-12 img-overlay">
-							<img src="assets/img/culinary.jpg" alt="ejercicio-maquetado-sobre-cocina" class="img-portafolio img-dos">
+							<img src="assets/img/culinary.jpg" alt="ejercicio-maquetado-sobre-cocina" class="img-portafolio img-dos my-class">
 							<p class="text-overlay">
 								<a href="https://maitc.github.io/culinary-lab/" target="_blank">DEMO</a> | 
 								<a href="https://github.com/maitc/culinary-lab" target="_blank">CODIGO</a>
 							</p>
 						</div>
 						<div class="col-md-12 img-overlay">
-							<img src="assets/img/Labcar.jpg" alt="ejercicio-maquetado-y-de-cobro-de-ruta" class="img-portafolio img-cuatro">
+							<img src="assets/img/Labcar.jpg" alt="ejercicio-maquetado-y-de-cobro-de-ruta" class="img-portafolio img-cuatro my-class">
 							<p class="text-overlay">
 								<a href="https://maitc.github.io/labcar/" target="_blank">DEMO</a>
 								 | 
@@ -214,7 +213,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-12 img-overlay">
-					<img src="assets/img/lyftapp.jpg" alt="ejercicio-maquetado-con-validacion-y-geolocation" class="img-portafolio img-tres">
+					<img src="assets/img/lyftapp.jpg" alt="ejercicio-maquetado-con-validacion-y-geolocation" class="img-portafolio img-tres my-class">
 					<p class="text-overlay">
 						<a href="https://maitc.github.io/lyft-app/" target="_blank">DEMO</a>
 						 | 
@@ -225,38 +224,38 @@
 		</div>
 	</section>
 	<!-- FOOTER -->
-	<footer class="my-class">
+	<footer>
 		<div class="container section dipper" id="section-footer">
 			<div class="row">
 				<div class="col-md-12 hidden-xs footer-uno">
-					<h2>CONTACTAME</h2>
-					<h4>maibeet.torres@gmail.com</h4>
+					<h2 class="my-class">CONTACTAME</h2>
+					<h4 class="my-class">maibeet.torres@gmail.com</h4>
 				</div>
 				<!-- MOBILE -->
 				<div class="col-xs-12 visible-xs footer-uno-dos">
-					<h2>CONTACTAME</h2>
-					<h5>maibeet.torres@gmail.com</h5>
+					<h2 class="my-class">CONTACTAME</h2>
+					<h5 class="my-class">maibeet.torres@gmail.com</h5>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 hidden-xs footer-dos footer-margin">
+				<div class="col-md-6 hidden-xs footer-dos footer-margin my-class">
 					<a href="https://www.linkedin.com/in/maitc/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
 				</div>
-				<div class="col-md-6 hidden-xs footer-tres footer-margin">
+				<div class="col-md-6 hidden-xs footer-tres footer-margin my-class">
 					<a href="https://github.com/maitc" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
 				</div>
 				<!-- MOBILE -->
-				<div class="col-xs-6 visible-xs footer-dos footer-margin">
+				<div class="col-xs-6 visible-xs footer-dos footer-margin my-class">
 					<a href="https://www.linkedin.com/in/maitc/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
 				</div>
-				<div class="col-xs-6 visible-xs footer-tres footer-margin">
+				<div class="col-xs-6 visible-xs footer-tres footer-margin my-class">
 					<a href="https://github.com/maitc" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
 				</div>
 			</div>
 			<hr>	
 			<div class="row">
 				<div class="col-md-12 footer-cuatro">
-					<h6>Desarrollado por <span>Maibeet Torres</span>, <a href="https://github.com/maitc/maitc" target="_blank">Créditos</a> | Laboratoria 2017</h6>
+					<h6 class="my-class">Desarrollado por <span>Maibeet Torres</span>, <a href="https://github.com/maitc/maitc" target="_blank">Créditos</a> | Laboratoria 2017</h6>
 				</div>
 			</div>
 		</div>
